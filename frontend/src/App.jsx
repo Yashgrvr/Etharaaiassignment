@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+const BACKEND_URL = "https://glistening-clarity-production.up.railway.app";
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch("http://localhost:5000/login", {
+      const res = await fetch(`${BACKEND_URL}/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
