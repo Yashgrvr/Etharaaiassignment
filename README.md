@@ -21,8 +21,8 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for project 
 ## 🔑 Test Credentials
 | Role | Email | Password |
 | :--- | :--- | :--- |
-| **Admin** | admin@final.com | admin123 |
-| **Member** | emp@final.com | emp123 |
+| **Admin** | admin@123.com | admin123 |
+| **Member** | emp@123.com | emp123 |
 
 ## ⚠️ Important Deployment Note (CORS)
 The application is fully deployed. However, due to last-minute cross-domain mapping on Railway, some browsers might block the login request via **CORS Policy**. 
